@@ -6,7 +6,7 @@ export default function BookList() {
 
    return (
       <div>
-         <h3>{bookList}</h3>
+         <h3>{BookList}</h3>
          <img src={book1} alt="Verity" />
          <img src={book2} alt="The Wives" />
          <img src={book3} alt="The Silent Patient" />
