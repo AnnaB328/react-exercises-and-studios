@@ -1,4 +1,4 @@
-function HobbyLinks() {
+export default function HobbyLinks() {
     let hobbyLinks = [
         "https://theimprovshop.com/",
         "https://the1870studio.com/shop",
@@ -6,12 +6,10 @@ function HobbyLinks() {
     ]
     return (
         <div>
-           <h3>{hobbyLinks}</h3>
-           <a href = {hobbyLinks[0]}>Improv Comedy</a>
-           <a href = {hobbyLinks[1]}>Fun Crafts and Art</a>
-           <a href = {hobbyLinks[2]}>Roller Derby</a>
+           <h3>My Hobbies</h3>
+           <a href = {hobbyLinks[0]} target = "blank">Improv Comedy</a>
+           <a href = {hobbyLinks[1]} target = "blank">Fun Crafts and Art</a>
+           <a href = {hobbyLinks[2]} target = "blank">Roller Derby</a>
         </div>      
-    )
-};
-
-export default HobbyLinks;
+    );
+}
